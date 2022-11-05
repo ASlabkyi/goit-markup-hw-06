@@ -391,7 +391,7 @@
 
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-      <button class="modal-close-button" type="submit" data-modal-close>
+      <button class="modal-close-button" type="button" data-modal-close>
         <svg class="modal-close-icon" width="18" height="18">
           <use href="./images/icons.svg#icon-close-button"></use>
         </svg>
@@ -430,14 +430,17 @@
 
 
         <div class="checkbox-container">
-          <input class="checkbox-input" id="checkbox-terms" type="checkbox" name="checkbox-terms" />
 
-          <svg class="checkbox-icon" width="16" height="15">
-            <use href="./images/icons.svg#icon-check"></use>
-          </svg>
 
-          <label class="checkbox-label" for="checkbox-terms">Погоджуюся з розсилкою та приймаю <a href="#">Умови
-              договору</a></label>
+          <label class="checkbox-label">
+            <input class="checkbox-input" type="checkbox" name="checkbox-terms" />
+
+            <svg class="checkbox-icon" width="16" height="15">
+              <use href="./images/icons.svg#icon-check"></use>
+            </svg>Погоджуюся з розсилкою та приймаю <a class="modal-terms" href="#">Умови
+              договору</a>
+
+          </label>
         </div>
         <button class="modal-form-button" type="submit">Відправити</button>
       </form>
