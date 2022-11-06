@@ -28,14 +28,15 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p {
   margin: 0;
   padding: 0;
 }
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 img {
@@ -82,7 +83,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.header .part {
+.logo-part {
   color: var(--color-black);
 }
 
